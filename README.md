@@ -13,7 +13,7 @@ téléchargement des images :
 téléchargent des annotations : [2014 Train/Val annotations  241 Mo](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
 
 ## Installation 
-Les bibliothèques python nécessaires pour applications sont notées dans le fichier (all_lib.py)[https://github.com/A-RAMZI/PFE/blob/master/all_lib.py]
+Les bibliothèques python nécessaires pour applications sont notées dans le fichier [all_lib.py](https://github.com/A-RAMZI/PFE/blob/master/all_lib.py)
 L’ajout des bibliothèques de TensorFlow Api manuellement se fasse :
   * En executant le fichier install_api.bat sous windows 
   * En compilant le projet [TensorFlow API](https://github.com/tensorflow/models/) 
