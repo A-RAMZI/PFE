@@ -27,7 +27,9 @@ L'application permet de :
   * Décrire les images selon notre modèle ( il suffit d'indiquer le chemin d'acces à l'image)
   * Comparer les descriptions du dataset avec la déscription générée (si l'image appartient au Dataset)  
   
-Lancement de l'application : python application.py ( des messages d'avertissement peuvent apparaître à l'utilisation de TensorFlow-CPU )
+Lancement de l'application :  
+   '''python application.py '''
+( des messages d'avertissement peuvent apparaître à l'utilisation de TensorFlow-CPU )
 
 ![image info](./temp/appli.jpg)  
 
