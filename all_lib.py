@@ -5,6 +5,7 @@ import sys
 import tarfile
 import tensorflow as tf
 import zipfile
+import opencv
 from collections import defaultdict
 from io import StringIO
 from matplotlib import pyplot as plt
