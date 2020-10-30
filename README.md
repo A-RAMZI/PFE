@@ -1,4 +1,15 @@
 # PFE Description d'images en utilisant le Deep Learning
+
+## Modèle
+
+## Dataset
+[Plus d'info sur MSCOCO Caption](https://cocodataset.org/#captions-2015)
+[Lien de téléchargement MSCOCO Caption](https://cocodataset.org/#captions-2015) 
+téléchargement des images :
+  * [2014 Train images  13 Go](http://images.cocodataset.org/zips/train2014.zip)
+  * [2014 Val images     6 Go](http://images.cocodataset.org/zips/val2014.zip)
+téléchargent des annotations : [2014 Train/Val annotations  241 Mo](http://images.cocodataset.org/annotations/annotations_trainval2014.zip)
+
 ## Installation 
     Les bibliothèques python nécessaires pour applications sont notées dans le fichier all_lib.py
 L’ajout des bibliothèques de TensorFlow Api manuellement se fasse :
@@ -12,6 +23,7 @@ L'application permet de :
   * Parcourir le Dataset ( chaque partie est découpée en pages de 10 items et chaque item contient une image et les descriptions correspondantes)
   * Décrire les images selon notre modèle ( il suffit d'indiquer le chemin d'acces à l'image)
   * Comparer les descriptions du dataset avec la déscription générée (si l'image appartient au Dataset)
+Lancement de l'application : python application.py ( des messages d'avertissement peuvent apparaître à l'utilisation de TensorFlow-CPU )
 
 ![image info](./temp/appli.jpg)
 
