@@ -2,7 +2,7 @@
 
 ## Modèle  
 Le code permettant de créer le modèle se trouve dans [create model colab/PFE.ipynb](https://github.com/A-RAMZI/PFE/blob/master/create%20model%20colab/PFE.ipynb)   
-L'architecture du modèle est indiqué sur la figure ci-dessous : ![image info](./temp/appli.jpg)  
+L'architecture du modèle est indiqué sur la figure ci-dessous : ![image info](./temp/model.jpg)  
 
 ## Dataset  
 [Plus d'informations sur MSCOCO Caption](https://cocodataset.org/#captions-2015)   
