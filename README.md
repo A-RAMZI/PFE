@@ -3,7 +3,7 @@
 ## Modèle
 
 ## Dataset
-[Plus d'info sur MSCOCO Caption](https://cocodataset.org/#captions-2015)   
+[Plus d'informations sur MSCOCO Caption](https://cocodataset.org/#captions-2015)   
 [Lien de téléchargement MSCOCO Caption](https://cocodataset.org/#captions-2015) 
 
 téléchargement des images :
@@ -17,13 +17,13 @@ Les bibliothèques python nécessaires pour applications sont notées dans le fi
 L’ajout des bibliothèques de TensorFlow Api manuellement se fasse :
   * En executant le fichier install_api.bat sous windows 
   * En compilant le projet [TensorFlow API](https://github.com/tensorflow/models/) 
-par protoc et les ajoutant aux bibliothèques python 
+par protoc et en ajoutant les bibliothèques obtenues à python
 
 ## Utilisation 
 Les codes dans le fichier [create dict data](https://github.com/A-RAMZI/PFE/tree/master/create%20data%20dict)  servent à extraire les données essentielles des fichiers Json du Dataset.
   
 L'application permet de :
-  * Parcourir le Dataset ( chaque partie est découpée en pages de 10 items et chaque item contient une image et les descriptions correspondantes)
+  * Parcourir le Dataset ( chaque partie train/val est découpée en pages de 10 items et chaque item contient une image et les descriptions correspondantes)
   * Décrire les images selon notre modèle ( il suffit d'indiquer le chemin d'acces à l'image)
   * Comparer les descriptions du dataset avec la déscription générée (si l'image appartient au Dataset)  
   
