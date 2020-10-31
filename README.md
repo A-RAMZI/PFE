@@ -1,10 +1,12 @@
 # PFE Description d'images en utilisant le Deep Learning
 
-## Modèle
+## Modèle  
+Le code permettant de créer le modèle se trouve dans [create model colab/PFE.ipynb](https://github.com/A-RAMZI/PFE/blob/master/create%20model%20colab/PFE.ipynb)   
+L'architecture du modèle est indiqué sur la figure ci-dessous : ![image info](./temp/model.jpg)  
 
-## Dataset
+## Dataset  
 [Plus d'informations sur MSCOCO Caption](https://cocodataset.org/#captions-2015)   
-[Lien de téléchargement MSCOCO Caption](https://cocodataset.org/#captions-2015) 
+[Lien de téléchargement MSCOCO Caption](https://cocodataset.org/#captions-2015)  
 
 téléchargement des images :
   * [2014 Train images  13 Go](http://images.cocodataset.org/zips/train2014.zip)
